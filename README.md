@@ -1,4 +1,4 @@
-# julessmith
+# julessmith portfolio page
 
 - [x]  Get a custom domain name to host your portfolio page
     - [x]  Go to the GitHub Student Developer Pack page and find a provider that offers a free domain - name.com
