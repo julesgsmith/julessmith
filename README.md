@@ -18,7 +18,11 @@ Email: jules@julessmith.studio
     - [x]  Get GitHub to link up with A record in terminal
     - [x]  Complete a change in HTML file
     - [x]  Check GitHub has automatically deployed site and provided URL
-
+    - [ ]  
+<aside>
+✅ Site is automatically updating following git push
+</aside>
+        
 - [ ]  Plan and wireframe an initial prototype for your portfolio, ready to get some quick feedback from others
     - [ ]  Sketch out portfolio in figma with an About, Projects, Contact
     - [ ]  Create simple HTML/CSS prototype
