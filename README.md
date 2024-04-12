@@ -11,8 +11,8 @@ Email: jules@julessmith.studio
 </aside>
 
 - [ ]  Create a pipeline that (as a minimum) facilitates Continuous Delivery (CD) from the main branch of your repo, connected to your and have a placeholder page deployed with a first commit
-    - [ ]  Create a new repository with main branch
-    - [ ]  Create site files
+    - [x]  Create a new repository with main branch
+    - [x]  Create site files
     - [ ]  Go to repository settings, GitHub Pages section, and select branch for deployment.
     - [ ]  Check GitHub has automatically deployed site and provided URL
     - [ ]  Go to domain provider DNS settings
