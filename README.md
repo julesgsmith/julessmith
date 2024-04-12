@@ -16,7 +16,7 @@ Email: jules@julessmith.studio
     - [x]  Create site files
     - [x]  Go to repository settings, GitHub Pages section, and select branch for deployment.
     - [x]  Go to domain provider DNS settings and set up A record
-    - [x]  Get GitHub to link up with A record in terminal
+    - [x]  Get GitHub to link up with A record in terminal using dig julessmith.studio +noall +answer -t A
     - [x]  Complete a change in HTML file
     - [x]  Check GitHub has automatically deployed site and provided URL
   
