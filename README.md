@@ -16,7 +16,7 @@ Email: jules@julessmith.studio
     - [x]  Go to repository settings, GitHub Pages section, and select branch for deployment.
     - [ ]  Check GitHub has automatically deployed site and provided URL
     - [ ]  Go to domain provider DNS settings
-    - [ ]  Add CNAME record pointing to julesgsmith.github.io
+    - [ ]  Add A record pointing to julesgsmith.github.io
 
 - [ ]  Plan and wireframe an initial prototype for your portfolio, ready to get some quick feedback from others
     - [ ]  Sketch out portfolio in figma with an about, projects, contact
