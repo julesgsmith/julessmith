@@ -9,7 +9,7 @@
 Email: jules@julessmith.studio
 
 </aside>
-<br /
+<hr>
 
 - [x]  Create a pipeline that (as a minimum) facilitates Continuous Delivery (CD) from the main branch of your repo, connected to your and have a placeholder page deployed with a first commit
     - [x]  Create a new repository with main branch
@@ -23,7 +23,7 @@ Email: jules@julessmith.studio
 <aside>
 ✅ Site is automatically updating following git push
 </aside>
-<br /
+<hr>
         
 - [ ]  Plan and wireframe an initial prototype for your portfolio, ready to get some quick feedback from others
     - [ ]  Sketch out portfolio in figma with an About, Projects, Contact
