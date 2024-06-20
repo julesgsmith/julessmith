@@ -90,6 +90,7 @@ footer {
     width: 90%;
     text-align: center;
     z-index: 10000;
+    position: absolute; /* centre  popup */
 }
 
 .popup-content h2 {
