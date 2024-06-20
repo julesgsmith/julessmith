@@ -16,4 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Hide popup when clicking outside of it
     document.getElementById('overlay').addEventListener('click', hidePopup);
+
+    // Show the popup immediately for testing
+    showPopup();
 });
