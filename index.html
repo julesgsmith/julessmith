@@ -8,30 +8,45 @@
     <title>Jules Smith Portfolio</title>
 </head>
 <body>
+
+    <!-- Overlay -->
+<div id="overlay" class="overlay"></div>
+
+<!-- Popup -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <h2>Work in Progress</h2>
+        <p>This site is currently under construction. Please check back later!</p>
+        <button id="closePopup">Close</button>
+    </div>
+</div>
+
+
+
     <header>
         <div class="container">
             <div id="branding">
-                <h1><span class="highlight">Jules Smith</span></h1>
+                <h1 class="full-width"><span class="highlight">Jules Smith</span></h1>
                 <p><span class="highlight">Experienced Project Manager and Full Stack Developer</span></p>
             </div>
-        
         </div>
     </header>
-    
+    <div class="grid-container">
     <section id="about">
-        <div class="container">
+       
             <h2>About Me</h2>
             <p>An adaptable, collaborative and solution-oriented problem solver with 13 years experience of planning and executing a variety of projects. 
 
                 Eager to continuously improve, I recently graduated from the School of Code Software Engineering bootcamp where I developed a strong fundamental understanding of the software development lifecycle, and enhanced my ability to have technical conversations with software developers, and translate technical jargon for non-technical stakeholders.
                 
                 I am driven by the opportunity to merge all my knowledge in order to drive impactful outcomes. </p>
-        </div>
+      
     </section>
-    
+    <div class="content-blocks">
     <section id="skills">
-        <div class="container">
+        
             <h2>My Skills</h2>
+          <div class="skill-list">
             <ul>
                 <li>Process Improvement</li>
                 <li>Problem Solving & Critical Thinking</li>
@@ -40,12 +55,13 @@
                 <li>DevSecOps, Agile and Waterfall</li>
                 <li>Stakeholder Management</li>
             </ul>
-        
         </div>
+ 
+      
     </section>
 
     <section id="tools">
-        <div class="container">
+       
             <h2>Tools</h2>
             <ul>
                 <li>Github / Github Flow</li>
@@ -58,11 +74,11 @@
                 <li>Visual Studio</li>
 
             </ul>
-        </div>
+       
     </section>
 
     <section id="languages">
-        <div class="container">
+  
             <h2>Programming</h2>
             <ul>
                 <li>HTML</li>
@@ -79,9 +95,9 @@
 
 
             </ul>
-        </div>
+        
     </section>
-
+</div>
     
     <section id="projects">
         <div class="container">
@@ -97,14 +113,14 @@
         
         </div>
     </section>
-    
+</div>
    
     <footer>
         <div class="container">
             <p>Copyright &copy; 2024 Jules Smith | All rights reserved.</p>
         </div>
     </footer>
-
+</main>
 
     <script src="script.js"></script>
 </body>

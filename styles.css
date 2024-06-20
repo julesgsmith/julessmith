@@ -1,47 +1,114 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ddd0d0;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-}
+
+/* Header */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-color: #323B4C;
     text-align: center;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 10; 
 }
-header h1 {
-    margin: 0;
+
+/*.grid-container and children */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+    width: 80%; 
+    margin: 60px auto; 
+    padding: 0 20px; 
 }
-.projects {
+
+.content-blocks {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 200px;
+    width: 100%;
 }
-.project {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+
+/* content-blocks */
+.skills,.tools,.languages {
+    flex-basis: calc(33.333% - 40px); 
     padding: 20px;
-    width: 45%;
-    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Ensures last section in content-blocks does not wrap */
+.content-blocks > :last-child {
+    flex-grow: 1;
+}
+
+/* Footer */
+footer {
+    background-color: #323B4C;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative; /* footer stay below other content */
+    z-index: 5; /* Lower than header z-index */
+}
+
+/* Remove unnecessary styles */
+.main-content {
+    overflow-y: auto; /* Enable scrolling in case content exceeds viewport height */
+}
+
+.full-width {
+    grid-column: 1 / -1; /* Spans across all columns */
+}
+
+/* Popup */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    z-index: 10000;
+}
+
+.popup-content h2 {
+    margin-bottom: 10px;
+}
+
+.popup-content p {
     margin-bottom: 20px;
 }
-.project h2 {
-    margin-top: 0;
-}
-footer {
-    background-color: #333;
+
+#closePopup {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
     color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.overlay,.popup {
+    display: none;
 }
