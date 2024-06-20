@@ -29,23 +29,24 @@ header {
 
 .content-blocks {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 200px;
-    width: 100%;
+    gap: 300px;
+
+}
+
+@media (max-width: 768px) {
+    .content-blocks {
+        gap: 20px;
+    }
 }
 
 /* content-blocks */
 .skills,.tools,.languages {
     flex-basis: calc(33.333% - 40px); 
-    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-/* Ensures last section in content-blocks does not wrap */
-.content-blocks > :last-child {
-    flex-grow: 1;
+   
 }
 
 /* Footer */
@@ -83,14 +84,14 @@ footer {
 }
 
 .popup {
+
     background-color: white;
     padding: 20px;
     border-radius: 5px;
     max-width: 400px;
-    width: 90%;
     text-align: center;
     z-index: 10000;
-    position: absolute; /* centre  popup */
+    position: absolute;
 }
 
 .popup-content h2 {
@@ -104,7 +105,7 @@ footer {
 #closePopup {
     cursor: pointer;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #323B4C;
     color: white;
     border: none;
     border-radius: 5px;
